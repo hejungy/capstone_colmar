@@ -7,11 +7,22 @@ html{
   margin: auto 0;
 }
 
+.media-container{
+  width: 60%;
+  margin: 2rem 1.5rem;
+
+}
+
+.media-container-sm{
+  width: 35%;
+}
+img{
+  max-width: 100%;
+}
 
 /*Header Section*/
 header{
   height: 4rem;
-  border: 1px solid red;
   display: flex;
   justify-content:space-between;
   padding: 0 1.5rem;
@@ -39,9 +50,23 @@ header{
 }
 
 /*Section 1 - Learn Something new..*/
+.section-1{
+  background-color: lightgrey;
+  display: flex;
+}
 
-
-
+.section-1 h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.button{
+  background-color: gray;
+}
+.button{
+  text-align: center;
+  padding: .5rem 0;
+  width: 300px;
+}
 /*Section 2 - It doesn't hurt to keep practicing*/
 
 /*Section 3 - Start Learning */
