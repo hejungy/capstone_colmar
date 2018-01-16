@@ -1,0 +1,51 @@
+
+/*Universal Styles */
+html{
+  font-family: sans-serif;
+}
+.v-center{
+  margin: auto 0;
+}
+
+
+/*Header Section*/
+header{
+  height: 4rem;
+  border: 1px solid red;
+  display: flex;
+  justify-content:space-between;
+  padding: 0 1.5rem;
+}
+
+.logo{
+  display: flex;
+}
+
+.logo span{
+  font-size: 1.2rem;
+}
+.logo span:first-child{
+  font-weight: bold;
+}
+
+.menu ul{
+  display: flex;
+}
+.menu li{
+  margin-right: 1rem;
+}
+.menu li:last-child{
+  margin-right: 0;
+}
+
+/*Section 1 - Learn Something new..*/
+
+
+
+/*Section 2 - It doesn't hurt to keep practicing*/
+
+/*Section 3 - Start Learning */
+
+/*Section 4 - Thesis Exhibit */
+
+/*Footer*/
