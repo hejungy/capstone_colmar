@@ -10,7 +10,6 @@ html{
 .media-container{
   width: 60%;
   margin: 2rem 1.5rem;
-
 }
 
 .media-container-sm{
@@ -49,6 +48,25 @@ header{
   margin-right: 0;
 }
 
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  header{
+    padding: 0 0;
+  }
+  .logo, .menu{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+
+}
 /*Section 1 - Learn Something new..*/
 .section-1{
   background-color: lightgrey;
@@ -58,14 +76,22 @@ header{
 .section-1 h1{
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-1 h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 .button{
-  background-color: gray;
-}
-.button{
+  background-color: hsl(0, 0%, 30%);
   text-align: center;
   padding: .5rem 0;
-  width: 300px;
+  width: 15.5rem;
+  color: white;
+}
+.learn{
+  width:30%;
 }
 /*Section 2 - It doesn't hurt to keep practicing*/
 
