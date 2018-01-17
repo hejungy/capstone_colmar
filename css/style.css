@@ -189,7 +189,9 @@ header{
   .section-2 .media-container{
     display: none;
   }
-
+  .section-2 .container{
+    margin-top: 0;
+  }
   .info{
     flex-direction: column;
   }
