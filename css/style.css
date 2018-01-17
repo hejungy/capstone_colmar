@@ -14,6 +14,7 @@ html{
 
 .media-container-sm{
   width: 35%;
+  margin: 1rem 1rem;
 }
 img{
   width: 100%;
@@ -22,6 +23,7 @@ img{
 .container{
   width:40%;
   display: flex;
+  flex-direction: column;
 }
 /*Header Section*/
 header{
@@ -97,10 +99,7 @@ header{
   width: 15rem;
   color: white;
 }
-.section-1 .container{
 
-  flex-direction: column;
-}
 
 @media only screen and (max-width: 600px){
   .section-1{
@@ -125,10 +124,53 @@ header{
     margin: 0 auto;
     margin-bottom: 2rem;
   }
-
 }
 /*Section 2 - It doesn't hurt to keep practicing*/
+.section-2{
+  display: flex;
+  color: hsl(0, 0%, 30%);
+}
 
+.section-2 .container{
+  margin-top: 2rem;
+}
+
+.section-2 h1{
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-2 .media-container p:last-child{
+  font-size: .85rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.info{
+  display: flex;
+  border: 1px solid hsl(0, 0%, 90%);
+}
+
+.orientation, .campus, .lecture{
+  width: 65%;
+  margin-left: 1rem;
+}
+
+.info p{
+  margin: .5rem 0;
+}
+
+.info h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.info:last-child{
+  background-color: lightgrey;
+}
+
+.
 /*Section 3 - Start Learning */
 
 /*Section 4 - Thesis Exhibit */
