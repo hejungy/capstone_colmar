@@ -16,6 +16,12 @@ html{
   width: 35%;
   margin: 1rem 1rem;
 }
+
+.mobile-container{
+  width: 100%;
+  margin: 1rem 1rem;
+}
+
 img{
   width: 100%;
 }
@@ -166,11 +172,40 @@ header{
   font-size: 1.4rem;
   font-weight: bold;
 }
+
+.info a{
+  text-decoration: none;
+  color: hsl(204, 100%, 50%);
+}
 .info:last-child{
   background-color: lightgrey;
 }
 
-.
+.mobile-container{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  .media-container{
+    display: none;
+    margin: 1rem 1rem;
+  }
+  .info{
+    flex-direction: column;
+  }
+  .media-container-sm{
+    display: none;
+  }
+
+  .mobile-container{
+    display: block;
+    width: auto;
+  }
+
+  .orientation, .campus, .lecture{
+    margin-bottom: 4rem;
+  }
+}
 /*Section 3 - Start Learning */
 
 /*Section 4 - Thesis Exhibit */
