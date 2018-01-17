@@ -16,9 +16,13 @@ html{
   width: 35%;
 }
 img{
-  max-width: 100%;
+  width: 100%;
 }
 
+.container{
+  width:40%;
+  display: flex;
+}
 /*Header Section*/
 header{
   height: 4rem;
@@ -36,6 +40,9 @@ header{
 }
 .logo span:first-child{
   font-weight: bold;
+}
+.logo span:last-child{
+  color: grey;
 }
 
 .menu ul{
@@ -87,11 +94,38 @@ header{
   background-color: hsl(0, 0%, 30%);
   text-align: center;
   padding: .5rem 0;
-  width: 15.5rem;
+  width: 15rem;
   color: white;
 }
-.learn{
-  width:30%;
+.section-1 .container{
+
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px){
+  .section-1{
+    flex-direction: column;
+  }
+  .media-container{
+    width: 100%;
+    margin: 0 0;
+  }
+  .container{
+    width: 100%;
+    /*padding: 2rem 1rem 2rem 1rem;*/
+  }
+
+  .section-1 h1{
+    margin: 2rem 0 2rem 1rem;
+  }
+  .section-1 h3{
+    margin: 0 0 2rem 1rem;
+  }
+  .button{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
 }
 /*Section 2 - It doesn't hurt to keep practicing*/
 
