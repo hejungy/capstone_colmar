@@ -214,7 +214,38 @@ header{
   }
 }
 /*Section 3 - Start Learning */
+.section-3{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+.section-3 h1{
+  padding: 2rem 0;
+  margin: 0 auto;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
 
+.course-container{
+  /*display: flex;*/ /*(omitting the flex display property for the .course-container makes its children display as block elements)*/
+  padding: 0 4.5rem 2rem 4.5rem;
+}
+
+.course{ /*I made .course block by omitting flex display from its parent(.course-container) above,
+  However, the divs are able to appear on the same line with each other because i made them inline-flex containers*/
+  background-color: white;
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
+}
+.course img{
+  height: auto;
+}
+
+.course h2{
+  margin-top: 1rem;
+}
 /*Section 4 - Thesis Exhibit */
 
 /*Footer*/
