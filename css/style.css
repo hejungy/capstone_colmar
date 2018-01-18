@@ -154,14 +154,13 @@ header{
   margin-bottom: 2rem;
 }
 
-.info{
-  display: flex;
-  border: 1px solid hsl(0, 0%, 90%);
-}
-
 .orientation, .campus, .lecture{
   width: 65%;
   margin-left: 1rem;
+}
+.info{
+  display: flex;
+  border: 1px solid hsl(0, 0%, 90%);
 }
 
 .info p{
@@ -194,6 +193,12 @@ header{
   }
   .info{
     flex-direction: column;
+    border: none;
+  }
+
+  .info:last-child{
+    background-color: white;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
   }
   .media-container-sm{
     display: none;
