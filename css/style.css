@@ -237,14 +237,36 @@ header{
   background-color: white;
   display: inline-flex;
   flex-direction: column;
-  width: 30%;
+  width: 31.357%;
 }
+.course:nth-child(-n+3){
+  margin-bottom: 32px;
+}
+.course:nth-child(2), .course:nth-child(5){
+  margin-left: 2rem;
+  margin-right: 2rem;
+  },
+
 .course img{
   height: auto;
 }
 
 .course h2{
-  margin-top: 1rem;
+  /*margin-top: 1rem;*/
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.course-text p:nth-child(2n+0){
+  margin-bottom: .5rem;
+}
+.course p:last-child{
+  /*argin-bottom: 1.5rem;*/
+}
+
+.course-text{
+  margin: 1rem 0 1.5rem 1rem;
 }
 /*Section 4 - Thesis Exhibit */
 
