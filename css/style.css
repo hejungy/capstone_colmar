@@ -198,7 +198,7 @@ header{
 
   .info:last-child{
     background-color: white;
-    border-bottom: 1px solid hsl(0, 0%, 90%);
+
   }
   .media-container-sm{
     display: none;
@@ -263,6 +263,43 @@ header{
 
 .course-text{
   margin: 1rem 0 1.5rem 1rem;
+}
+
+.course-mobile{
+  display: none;
+}
+@media only screen and (max-width: 768px){
+  .section-3{
+    background-color: white;
+    border-top: 1px solid hsl(0, 0%, 90%);
+  }
+
+  .section-3 h1{
+    padding: 2rem 0 1rem 0;
+  }
+  .field{
+    padding: 1rem 0 1.5rem 1rem;
+    background-color: lightgrey;
+    margin: 0 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .field:last-child{
+    margin-bottom: 2rem;
+  }
+
+  .section-3 h2{
+    font-size: 1.4rem;
+  }
+
+  .course-container{
+    display: none;
+  }
+
+  .course-mobile{
+    display: flex;
+    flex-direction: column;
+  }
 }
 /*Section 4 - Thesis Exhibit */
 
