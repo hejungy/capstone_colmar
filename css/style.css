@@ -8,6 +8,7 @@ a{
   text-decoration: none;
   color: black
 }
+
 h1{
   font-size: 1.75rem;
 }
@@ -19,6 +20,7 @@ h2{
 h1, h2{
   font-weight: bold;
 }
+
 .v-center{
   margin: auto 0;
 }
@@ -47,6 +49,7 @@ img{
   display: flex;
   flex-direction: column;
 }
+
 /*Header Section*/
 header{
   height: 4rem;
@@ -83,7 +86,7 @@ header{
   display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   header{
     padding: 0 0;
   }
@@ -95,9 +98,8 @@ header{
     justify-content: space-around;
     width: 100%;
   }
-
-
 }
+
 /*Section 1 - Learn Something new..*/
 .section-1{
   background-color: lightgrey;
@@ -121,8 +123,7 @@ header{
   color: white;
 }
 
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   .section-1{
     flex-direction: column;
   }
@@ -132,7 +133,6 @@ header{
   }
   .container{
     width: 100%;
-    /*padding: 2rem 1rem 2rem 1rem;*/
   }
 
   .section-1 h1{
@@ -146,6 +146,7 @@ header{
     margin-bottom: 2rem;
   }
 }
+
 /*Section 2 - It doesn't hurt to keep practicing*/
 .section-2{
   display: flex;
@@ -185,7 +186,6 @@ header{
   margin: .5rem 0;
 }
 
-
 .info a{
   color: hsl(204, 100%, 50%);
 }
@@ -197,7 +197,7 @@ header{
   display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   .section-2 .media-container{
     display: none;
   }
@@ -226,6 +226,7 @@ header{
     margin-bottom: 4rem;
   }
 }
+
 /*Section 3 - Start Learning */
 .section-3{
   display: flex;
@@ -252,7 +253,7 @@ header{
 .course:nth-child(2){
   margin-left: 2rem;
   margin-right: 2rem;
-  }
+}
 
 .course img{
   height: auto;
@@ -273,6 +274,7 @@ header{
 .course-mobile{
   display: none;
 }
+
 @media only screen and (max-width: 768px){
   .section-3{
     background-color: white;
@@ -303,6 +305,7 @@ header{
     flex-direction: column;
   }
 }
+
 /*Section 4 - Thesis Exhibit */
 .section-4 h1{
   margin: 2rem 0 2rem 0;
@@ -337,8 +340,11 @@ header{
 .section-4 .info:first-child{
   background-color: lightgrey;
 }
+.text-container{
+  width: 65%;
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   .section-4{
     border-top: 1px solid hsl(0, 0%, 90%)
   }
@@ -347,6 +353,7 @@ header{
   }
   .section-4-flex .media-container{
     margin: 0 0 1.5rem 0;
+    width: 100%;
   }
   .section-4 .container{
     display: none;
@@ -356,6 +363,7 @@ header{
     display: none;
   }
 }
+
 /*Footer*/
 footer{
   padding: 1rem 0 4rem 1.5rem;
@@ -364,15 +372,16 @@ footer{
   justify-content: space-between;
   border-top: 1px solid hsl(0, 0%, 90%);
 }
+
 footer div{
   margin-right: 1rem;
-
 }
+
 footer span, footer a{
   font-size: .85rem;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   footer{
     padding: 1rem 0 1rem 1.5rem;
     border-top: none;
