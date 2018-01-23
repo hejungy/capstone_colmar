@@ -153,7 +153,8 @@ header{
 }
 
 .section-2 .container{
-  margin-top: 2rem;
+  padding-top: 2rem;
+  border-left: 1px solid hsl(0, 0%, 90%);
 }
 
 .section-2 h1{
@@ -174,6 +175,7 @@ header{
 .info{
   display: flex;
   border: 1px solid hsl(0, 0%, 90%);
+  border-left: none;
 }
 
 .info p{
