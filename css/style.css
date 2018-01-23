@@ -309,6 +309,10 @@ header{
   text-align: center;
 }
 
+.section-4-flex h1{
+  text-align: left;
+}
+
 .section-4-flex{
   display: flex;
 }
