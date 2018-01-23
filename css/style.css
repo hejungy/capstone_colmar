@@ -178,6 +178,9 @@ header{
   border-left: none;
 }
 
+.info:first-child{
+  border-top: none;
+}
 .info p{
   margin: .5rem 0;
 }
