@@ -303,7 +303,7 @@ header{
 }
 /*Section 4 - Thesis Exhibit */
 .thesis h1{
-  margin-top: 2rem;
+  margin: 2rem 0 2rem 0;
   font-size: 1.75rem;
   font-weight: bold;
   text-align: center;
@@ -311,7 +311,6 @@ header{
 
 .section-4-flex{
   display: flex;
-  margin-top: 2rem;
 }
 
 .section-4-flex .media-container{
@@ -333,5 +332,24 @@ header{
 }
 .section-4 .info:first-child{
   background-color: lightgrey;
+}
+
+@media only screen and (max-width: 600px){
+  .section-4{
+    border-top: 1px solid hsl(0, 0%, 90%)
+  }
+  .thesis h1{
+    margin: 2rem 0 1rem 0;
+  }
+  .section-4-flex .media-container{
+    margin: 0 0;
+  }
+  .section-4 .container{
+    display: none;
+  }
+
+  .section-4-flex h1, .section-4 p{
+    display: none;
+  }
 }
 /*Footer*/
