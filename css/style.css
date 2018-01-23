@@ -3,6 +3,11 @@
 html{
   font-family: sans-serif;
 }
+
+a{
+  text-decoration: none;
+  color: black
+}
 .v-center{
   margin: auto 0;
 }
@@ -342,7 +347,7 @@ header{
     margin: 2rem 0 1rem 0;
   }
   .section-4-flex .media-container{
-    margin: 0 0;
+    margin: 0 0 1.5rem 0;
   }
   .section-4 .container{
     display: none;
@@ -353,3 +358,27 @@ header{
   }
 }
 /*Footer*/
+footer{
+  padding: 1rem 0 4rem 1.5rem;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+footer div{
+  margin-right: 1rem;
+
+}
+footer span, footer a{
+  font-size: .85rem;
+}
+
+@media only screen and (max-width: 600px){
+  footer{
+    padding: 1rem 0 1rem 1.5rem;
+  }
+  footer div{
+    display: none;
+  }
+}
