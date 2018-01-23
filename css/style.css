@@ -176,7 +176,7 @@ header{
   text-decoration: none;
   color: hsl(204, 100%, 50%);
 }
-.info:last-child{
+.section-2 .info:last-child{
   background-color: lightgrey;
 }
 
@@ -302,5 +302,36 @@ header{
   }
 }
 /*Section 4 - Thesis Exhibit */
+.thesis h1{
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
 
+.section-4-flex{
+  display: flex;
+  margin-top: 2rem;
+}
+
+.section-4-flex .media-container{
+  margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.section-4-flex .media-container h1{
+  margin: 1.5rem 0 .5rem 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.section-4-flex .media-container p{
+  margin-bottom: 2rem;
+}
+
+.section-4 .info{
+  border: none;
+}
+.section-4 .info:first-child{
+  background-color: lightgrey;
+}
 /*Footer*/
