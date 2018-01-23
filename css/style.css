@@ -230,7 +230,7 @@ header{
 .section-3{
   display: flex;
   flex-direction: column;
-  background-color: lightgrey;
+  background-color: hsl(0, 0%, 90%);
 }
 .section-3 h1{
   padding: 2rem 0;
